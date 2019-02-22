@@ -6,7 +6,7 @@
 
 ### Description
 
-Do the web design process (user stories, sketching, wireframing, prototyping, and web development) for a coworking space company. The website will convey to potential customers the feeling of being hip, luxurious, and inclusive.
+Do the web design process (user stories, sketching, wireframing, prototyping, and web development) for a coworking space company, WorkingIt. The website will convey to potential customers the feeling of being hip, luxurious, and inclusive.
 
 ### Images
 
@@ -29,6 +29,14 @@ Screenshots of your Sketch wireframes should go here. Make sure to include all v
 * As a non-tech worker, I want to see the sense of community to determine if this is the right environment for me to work in.
 * As an entrepreneur, I want to see a contact page where I can talk to the co-working space management about company fees as well pictures of the private offices available.
 * As a woman seeking to work in a coworking space, I want to see a sense of an inclusive environment.
+
+### Brainstorm and Research
+
+* TechSpace uses a clean white format with a minimal looking font to create an IT culture/aesthetic
+* WeWork uses a white format with a few tastefully placed colorful pictures to create a clean and creative feel
+* Both websites cover the mission/culture, membership options and fees, and amenities provided.
+* WorkingIt's website will have a clean white based format with vibrant colors placed artfully to convey the feeling that both tech and non-tech workers can feel productive.  
+* Use a creative font to differentiate from other coworking spaces.
 
 ### Technologies and Resources
 
