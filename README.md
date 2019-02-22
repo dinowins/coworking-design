@@ -6,7 +6,7 @@
 
 ### Description
 
-Write about what the project does, what inspired you, what its goals are, what issues you're trying to fix, or what concepts you're completing this project to learn in this section here.
+Do the web design process (user stories, sketching, wireframing, prototyping, and web development) for a coworking space company. The website will convey to potential customers the feeling of being hip, luxurious, and inclusive.
 
 ### Images
 
@@ -22,6 +22,7 @@ Screenshots of your Sketch wireframes should go here. Make sure to include all v
 
 ### User Stories
 
+* Target users: potential members of the co-working space (freelancers, entrepreneurs and their employees, remote workers, creatives), co-working management
 * As a member of the co-working startup, I want a hip, luxurious, and inclusive website that draws attention to our sense of community.  
 * As an aspiring member of this co-working space, I want to see an organized list of the amenities provided and the subscription/membership model provided.
 * As a tech worker, I want to see a gallery of the space so that I can determine if this is a place where I can be productive, but social.
