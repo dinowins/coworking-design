@@ -11,10 +11,13 @@ Do the web design process (user stories, sketching, wireframing, prototyping, an
 ### Images
 
 Wireframe
-![](landipage-desktop.png)
-![](membership.jpg)
-![](ContactUs.jpg)
-![](mobile.jpg)
+![](img/landingpage-desktop.jpg)
+
+![](img/membership.jpg)
+
+![](img/ContactUs.jpg)
+
+![](img/mobile.jpg)
 
 #### Desktop Version
 
