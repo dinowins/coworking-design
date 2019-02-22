@@ -10,7 +10,11 @@ Do the web design process (user stories, sketching, wireframing, prototyping, an
 
 ### Images
 
-Screenshots of your Sketch wireframes should go here. Make sure to include all versions (if you have different mobile, tablet, desktop, etc.) designs. Use Dropbox or another free image hosting service to host your images.
+Wireframe
+![](landipage-desktop.png)
+![](membership.jpg)
+![](ContactUs.jpg)
+![](mobile.jpg)
 
 #### Desktop Version
 
