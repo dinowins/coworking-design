@@ -47,21 +47,17 @@ Wireframe
 
 ### Technologies and Resources
 
-* List
-* What
-* Outside
-* Technologies
-* You've
-* Used
-* Here
+* Sketch
 
 ### Responsiveness
 
-Describe how the site is responsive, and what different 'versions' this project includes (does it have a mobile version? tablet version? )
+The website includes a desktop, tablet, and mobile version.
 
 ### Setup Instructions
 
-Describe how someone can clone and launch this project.
+Clone the repo at https://github.com/dinowins/coworking-design.git.
+
+Open up in Sketch to add changes to the wireframe.
 
 ### Roadmap
 
@@ -76,4 +72,4 @@ Is there work you plan on continuing doing on this project? Features you'd like 
 
 Determine the license under which this application can be used.
 
-Copyright (c) 2018 **_{ List of Contributors }_**
+Copyright (c) 2019 **_{ Dino Nguyen }_**
