@@ -24,9 +24,9 @@ Wireframe
 
 ![](img/landing-desktop.png)
 
-![](img/landing-mobile.png)
+![](img/Landing-mobile.png)
 
-![](img/landing-tablet.png)
+![](img/Landing-tablet.png)
 
 ![](img/membership-desktop.png)
 
