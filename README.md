@@ -22,7 +22,7 @@ Sketches
 
 Wireframe
 
-![](img/landingpage-desktop.png)
+![](img/landing-desktop.png)
 
 ![](img/landing-mobile.png)
 
