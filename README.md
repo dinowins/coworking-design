@@ -11,13 +11,17 @@ Do the web design process (user stories, sketching, wireframing, prototyping, an
 ### Images
 
 Wireframe
+
 ![](img/landingpage-desktop.jpg)
 
-![](img/membership.jpg)
+![](img/landing-mobile.png)
 
-![](img/ContactUs.jpg)
+![](img/landing-tablet.png)
 
-![](img/mobile.jpg)
+![](img/membership-desktop.png)
+
+![](img/contact-desktop.png)
+
 
 #### Desktop Version
 
@@ -30,6 +34,9 @@ Wireframe
 ### User Stories
 
 * Target users: potential members of the co-working space (freelancers, entrepreneurs and their employees, remote workers, creatives), co-working management
+* User persona: Teddy - "I need a workspace to code." - Teddy is a remote programmer for a small company looking for a nice and clean workspace where he can be productive.
+* User persona: Lisa - "I need to find a place where I can be creative." - Lisa is an artist that wants somewhere to be creative while showcasing her talents and getting inspiration from her neighbors.
+* User persona: Tanya - "I need a workspace for my startup." - Tanya wants to find a workspace that can host her startup and provide the usual amenities for a startup. 
 * As a member of the co-working startup, I want a hip, luxurious, and inclusive website that draws attention to our sense of community.  
 * As an aspiring member of this co-working space, I want to see an organized list of the amenities provided and the subscription/membership model provided.
 * As a tech worker, I want to see a gallery of the space so that I can determine if this is a place where I can be productive, but social.
@@ -48,6 +55,8 @@ Wireframe
 ### Technologies and Resources
 
 * Sketch
+* CSS, HTML, Sass
+* Webpack
 
 ### Responsiveness
 
@@ -61,15 +70,12 @@ Open up in Sketch to add changes to the wireframe.
 
 ### Roadmap
 
-Is there work you plan on continuing doing on this project? Features you'd like to add?
+New features we are considering adding:
 
-* Consider
-* Listing
-* Them
-* Here
+* Gallery showcasing workspace
 
 ### License
 
-Determine the license under which this application can be used.
+The MIT License (MIT)
 
 Copyright (c) 2019 **_{ Dino Nguyen }_**
