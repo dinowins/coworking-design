@@ -12,25 +12,25 @@ Do the web design process (user stories, sketching, wireframing, prototyping, an
 
 Sketches
 
-![](img/landingpage-desktop.jpg)
+![](src/assets/images/landingpage-desktop-sketch.jpg)
 
-![](img/mobile.jpg)
+![](src/assets/images/mobile-sketch.jpg)
 
-![](img/membership.jpg)
+![](src/assets/images/membership-sketch.jpg)
 
-![](img/ContactUs.jpg)
+![](src/assets/images/ContactUs-sketch.jpg)
 
 Wireframe
 
-![](img/landing-desktop.png)
+![](src/assets/images/landing-desktop-wf.png)
 
-![](img/Landing-mobile.png)
+![](src/assets/images/landing-mobile-wf.png)
 
-![](img/Landing-tablet.png)
+![](src/assets/images/landing-tablet-wf.png)
 
-![](img/membership-desktop.png)
+![](src/assets/images/membership-desktop-wf.png)
 
-![](img/contact-desktop.png)
+![](src/assets/images/contact-desktop-wf.png)
 
 
 #### Desktop Version
