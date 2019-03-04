@@ -1,8 +1,7 @@
-$font-stack: Helvetica, sans-serif;
-$primary-font-color: red;
+$purple: #7C1588;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-font-color;
-  background-color: pink;
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 10% 1fr 1fr;
 }

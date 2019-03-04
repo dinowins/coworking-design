@@ -37,20 +37,24 @@ Prototype
 ![](src/assets/images/prototype.png)
 
 
-#### Desktop Version
+<!-- #### Desktop Version
 
 ![desktop user interface](link-to-screenshot-here)
 
 #### Mobile Version
 
-![mobile user interface](link-to-screenshot-here)
+![mobile user interface](link-to-screenshot-here) -->
 
-### User Stories
+
+### Personas
 
 * Target users: potential members of the co-working space (freelancers, entrepreneurs and their employees, remote workers, creatives), co-working management
 * User persona: Teddy - "I need a workspace to code." - Teddy is a remote programmer for a small company looking for a nice and clean workspace where he can be productive.
 * User persona: Lisa - "I need to find a place where I can be creative." - Lisa is an artist that wants somewhere to be creative while showcasing her talents and getting inspiration from her neighbors.
 * User persona: Tanya - "I need a workspace for my startup." - Tanya wants to find a workspace that can host her startup and provide the usual amenities for a startup.
+
+### User Stories
+
 * As a member of the co-working startup, I want a hip, luxurious, and inclusive website that draws attention to our sense of community.  
 * As an aspiring member of this co-working space, I want to see an organized list of the amenities provided and the subscription/membership model provided.
 * As a tech worker, I want to see a gallery of the space so that I can determine if this is a place where I can be productive, but social.

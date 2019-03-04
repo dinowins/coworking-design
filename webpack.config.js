@@ -4,45 +4,53 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
+
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   },
+
   devtool: 'eval-source-map',
   devServer: {
     contentBase: './dist'
   },
+
   module: {
     rules: [
+
       {
         test: /\.scss$/,
         use: [
-            'style-loader',
-            'css-loader',
-            'sass-loader'
-        ]
+            "style-loader",
+            "css-loader",
+            "sass-loader"
+        ],
       },
       {
         test: /\.(gif|png|jpe?g)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/images/'
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[ext]',
+                outputPath: 'assets/img/'
+              }
             }
-          }
-        ]
-      },
-      {
-        test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
-      },
+          ]
+        },
+
+        {
+           test: /\.html$/,
+           loader: 'html-srcsets-loader',
+           options: {
+               attrs: ['img:src', ':srcset'],
+           },
+        }
+
     ]
   },
+
   plugins: [
     new HtmlWebpackPlugin({
       inject: 'body',
@@ -53,15 +61,10 @@ module.exports = {
         collapseWhitespace: true
       }
     }),
-    new HtmlWebpackPlugin({
-      filename: 'contact.html',
-      template: './src/contact.html'
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true
-      }
-    }),
+
     new UglifyJsPlugin(),
+
     new CleanWebpackPlugin(['dist'])
   ]
+
 };
