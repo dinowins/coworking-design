@@ -1,7 +1,83 @@
 $purple: #7C1588;
+$font-head: "Dirty Brush";
+$font-text: "Righteous-Regular";
 
-.container-grid {
+.landing-grid {
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 10% 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30% 1fr;
 }
+
+// landing page grid
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  img {
+    height: 5rem;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3 {
+    font: 100% $font-head;
+    font-size: 2rem;
+    margin-right: auto;
+  }
+}
+
+// nabvar styling
+
+.landing-content-grid {
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  .content-info-first {
+    grid-row: 1;
+    grid-column: 1;
+    h1 {
+      font: 100% $font-head;
+      font-size: 3rem;
+    }
+    p {
+      font: 100% $font-text;
+    }
+  }
+  .content-img-first {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      height: 250px;
+      width: 400px;
+    }
+  }
+  .content-info-second {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    h1 {
+      font: 100% $font-head;
+      font-size: 3rem;
+    }
+    p {
+      font: 100% $font-text;
+    }
+  }
+  .content-img-second {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      height: 250px;
+      width: 400px;
+    }
+  }
+}
+
+// landing page content styling
