@@ -1,13 +1,20 @@
 $purple: #7C1588;
 $font-head: "Dirty Brush";
 $font-text: "Righteous-Regular";
+@mixin margin($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+@mixin heightWeight($height, $width) {
+  height: $height;
+  width: $width;
+}
 
 .landing-grid {
-  margin-left: auto;
-  margin-right: auto;
+  @include margin(auto);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 30% 1fr;
+  grid-template-rows: 15% 1fr;
 }
 
 // landing page grid
@@ -16,16 +23,26 @@ $font-text: "Righteous-Regular";
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  img {
-    height: 5rem;
-    width: 15rem;
-    margin-left: auto;
-    margin-right: auto;
+  border-bottom: 3px solid black;
+  .logo {
+    img {
+      @include heightWeight(5rem, 15rem);
+      @include margin(auto);
+      padding: 10px 20px 0 20px;
+    }
   }
   h3 {
     font: 100% $font-head;
     font-size: 2rem;
-    margin-right: auto;
+    @include margin(auto);
+  }
+  h3 a {
+    color: black;
+    text-decoration: none;
+  }
+
+  h3 a:hover {
+    text-decoration: underline;
   }
 }
 
@@ -36,25 +53,28 @@ $font-text: "Righteous-Regular";
   grid-row: 2;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin-top: 5%;
   .content-info-first {
-    grid-row: 1;
-    grid-column: 1;
+    grid-row-start: 1;
+    grid-column-start: 1;
     h1 {
       font: 100% $font-head;
       font-size: 3rem;
+      text-align: center;
     }
     p {
       font: 100% $font-text;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0 50px 0 50px;
     }
   }
   .content-img-first {
-    grid-row: 1;
-    grid-column: 2;
-    margin-left: auto;
-    margin-right: auto;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    @include margin(auto);
     img {
-      height: 250px;
-      width: 400px;
+      @include heightWeight(300px, 450px);
     }
   }
   .content-info-second {
@@ -63,19 +83,21 @@ $font-text: "Righteous-Regular";
     h1 {
       font: 100% $font-head;
       font-size: 3rem;
+      text-align: center;
     }
     p {
       font: 100% $font-text;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0 50px 0 50px;
     }
   }
   .content-img-second {
     grid-row-start: 2;
     grid-column-start: 1;
-    margin-left: auto;
-    margin-right: auto;
+    @include margin(auto);
     img {
-      height: 250px;
-      width: 400px;
+      @include heightWeight(300px, 450px);
     }
   }
 }
