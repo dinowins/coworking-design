@@ -14,7 +14,7 @@ $font-text: "Righteous-Regular";
   @include margin(auto);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 1fr;
+  grid-template-rows: 13% 1fr;
 }
 
 // landing page grid
@@ -24,6 +24,7 @@ $font-text: "Righteous-Regular";
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 3px solid black;
+  align-items: center;
   .logo {
     img {
       @include heightWeight(5rem, 15rem);
@@ -73,6 +74,7 @@ $font-text: "Righteous-Regular";
     grid-row-start: 1;
     grid-column-start: 2;
     @include margin(auto);
+    margin-top: 2em;
     img {
       @include heightWeight(300px, 450px);
     }
@@ -96,6 +98,7 @@ $font-text: "Righteous-Regular";
     grid-row-start: 2;
     grid-column-start: 1;
     @include margin(auto);
+    margin-top: 2em;
     img {
       @include heightWeight(300px, 450px);
     }
@@ -103,3 +106,30 @@ $font-text: "Righteous-Regular";
 }
 
 // landing page content styling
+
+@media screen and (max-width: 768px) {
+  // * {
+  //   border: 1px solid red;
+  // }
+  .landing-grid {
+    display: grid;
+    max-width: 768px;
+    grid-template-rows: 15% 1fr;
+  }
+  .navbar {
+    justify-content: center;
+    .logo {
+    }
+    h3 {
+      display: none;
+    }
+  }
+}
+
+// tablet styling
+
+@media screen and (max-width: 415px) {
+
+}
+
+// phone styling

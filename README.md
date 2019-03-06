@@ -49,9 +49,46 @@ Prototype
 ### Personas
 
 * Target users: potential members of the co-working space (freelancers, entrepreneurs and their employees, remote workers, creatives), co-working management
-* User persona: Teddy - "I need a workspace to code." - Teddy is a remote programmer for a small company looking for a nice and clean workspace where he can be productive.
-* User persona: Lisa - "I need to find a place where I can be creative." - Lisa is an artist that wants somewhere to be creative while showcasing her talents and getting inspiration from her neighbors.
+
+#### Teddy
+##### "As a remote programmer, I need a nice workspace to do my work and not be distracted."
+###### Needs
+* _Informative website_
+* _A workspace with offices and nice amenities_
+
+###### Pain Points
+* _Workspace with no areas to focus_
+* _website with little information_
+
+###### How we can serve
+* _Make it minimalistic and informative_
+* _Show the amenities provided_
+
+#### Lisa
+##### "I'm a creative and I want to find inspiration in those around me."
+###### Needs
+* _A space for creativity_
+* _Sense of community_
+
+###### Pain Points
+* _Workspaces with no communal spaces_
+* _A space that has no areas for entertainment and creativity_
+
+###### How we can serve
+* _Display the type of communal and engaging events that are offered_
+* _Have pictures of the workspaces_
 * User persona: Tanya - "I need a workspace for my startup." - Tanya wants to find a workspace that can host her startup and provide the usual amenities for a startup.
+#### Tanya
+##### "As an entrepreneur, I want a vibrant workspace where my employees can be productive but free"
+###### Needs
+* _A set of offices that are not too distracting and not too corporate_
+* _A clean website showing off where the employees will be working_
+
+###### Pain Points
+* _Information overload_
+
+###### How we can serve
+* _Showcase the enterprise options_
 
 ### User Stories
 

@@ -62,6 +62,36 @@ module.exports = {
       }
     }),
 
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      template: './src/membership.html',
+      filename: 'membership.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      }
+    }),
+
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      template: './src/workspace.html',
+      filename: 'workspace.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      }
+    }),
+
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      template: './src/contact.html',
+      filename: 'contact.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      }
+    }),
+
     new UglifyJsPlugin(),
 
     new CleanWebpackPlugin(['dist'])
