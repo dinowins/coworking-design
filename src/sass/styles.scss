@@ -5,7 +5,7 @@ $font-text: "Righteous-Regular";
   margin-left: $margin;
   margin-right: $margin;
 }
-@mixin heightWeight($height, $width) {
+@mixin heightWidth($height, $width) {
   height: $height;
   width: $width;
 }
@@ -13,7 +13,8 @@ $font-text: "Righteous-Regular";
 .landing-grid {
   @include margin(auto);
   display: grid;
-  grid-template-columns: 1fr;
+  width: 100vw;
+  grid-template-columns: 100%;
   grid-template-rows: 13% 1fr;
 }
 
@@ -22,12 +23,13 @@ $font-text: "Righteous-Regular";
 .navbar {
   display: flex;
   flex-direction: row;
+  width: inherit;
   justify-content: space-between;
   border-bottom: 3px solid black;
   align-items: center;
   .logo {
     img {
-      @include heightWeight(5rem, 15rem);
+      @include heightWidth(5rem, 15rem);
       @include margin(auto);
       padding: 10px 20px 0 20px;
     }
@@ -76,7 +78,7 @@ $font-text: "Righteous-Regular";
     @include margin(auto);
     margin-top: 2em;
     img {
-      @include heightWeight(300px, 450px);
+      @include heightWidth(300px, 450px);
     }
   }
   .content-info-second {
@@ -100,7 +102,7 @@ $font-text: "Righteous-Regular";
     @include margin(auto);
     margin-top: 2em;
     img {
-      @include heightWeight(300px, 450px);
+      @include heightWidth(300px, 450px);
     }
   }
 }
@@ -113,11 +115,13 @@ $font-text: "Righteous-Regular";
   // }
   .landing-grid {
     display: grid;
+    width: 100%;
     max-width: 768px;
     grid-template-rows: 15% 1fr;
   }
   .navbar {
     justify-content: center;
+    width: inherit;
     .logo {
     }
     h3 {
