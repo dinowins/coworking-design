@@ -37,13 +37,13 @@ Prototype
 ![](src/assets/images/prototype.png)
 
 
-<!-- #### Desktop Version
+#### Desktop Version
 
-![desktop user interface](link-to-screenshot-here)
+![desktop user interface](src/assets/images/landing-desktop.png)
 
 #### Mobile Version
 
-![mobile user interface](link-to-screenshot-here) -->
+![mobile user interface](src/assets/images/landing-mobile.png)
 
 
 ### Personas
