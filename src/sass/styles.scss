@@ -67,7 +67,7 @@ $font-text: "Righteous-Regular";
     }
     p {
       font: 100% $font-text;
-      font-size: calc(1em + 1vw);
+      font-size: calc(1em + .5vw);
       text-align: center;
       padding: 0 50px 0 50px;
     }
@@ -77,9 +77,9 @@ $font-text: "Righteous-Regular";
     grid-column-start: 2;
     @include margin(auto);
     margin-top: 2em;
-    img {
-      @include heightWidth(300px, 450px);
-    }
+    // img {
+    //   @include heightWidth(300px, 450px);
+    // }
   }
   .content-info-second {
     grid-row-start: 2;
@@ -91,7 +91,7 @@ $font-text: "Righteous-Regular";
     }
     p {
       font: 100% $font-text;
-      font-size: calc(1em + 1vw);
+      font-size: calc(1em + .5vw);
       text-align: center;
       padding: 0 50px 0 50px;
     }
@@ -101,10 +101,15 @@ $font-text: "Righteous-Regular";
     grid-column-start: 1;
     @include margin(auto);
     margin-top: 2em;
-    img {
-      @include heightWidth(300px, 450px);
-    }
+    // img {
+    //   @include heightWidth(300px, 450px);
+    // }
   }
+}
+
+.responsive {
+ width: 100%;
+ height: auto;
 }
 
 // landing page content styling
@@ -135,8 +140,11 @@ $font-text: "Righteous-Regular";
 
 // tablet styling
 
-@media screen and (max-width: 415px) {
-
+@media screen and (max-width: 600px) {
+  .landing-content-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 // phone styling
