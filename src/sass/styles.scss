@@ -36,7 +36,7 @@ $font-text: "Righteous-Regular";
   }
   h3 {
     font: 100% $font-head;
-    font-size: 2rem;
+    font-size: 2em;
     @include margin(auto);
   }
   h3 a {
@@ -62,12 +62,12 @@ $font-text: "Righteous-Regular";
     grid-column-start: 1;
     h1 {
       font: 100% $font-head;
-      font-size: 3rem;
+      font-size: calc(2em + 1vw);
       text-align: center;
     }
     p {
       font: 100% $font-text;
-      font-size: 2rem;
+      font-size: calc(1em + 1vw);
       text-align: center;
       padding: 0 50px 0 50px;
     }
@@ -86,12 +86,12 @@ $font-text: "Righteous-Regular";
     grid-column-start: 2;
     h1 {
       font: 100% $font-head;
-      font-size: 3rem;
+      font-size: calc(2em + 1vw);
       text-align: center;
     }
     p {
       font: 100% $font-text;
-      font-size: 2rem;
+      font-size: calc(1em + 1vw);
       text-align: center;
       padding: 0 50px 0 50px;
     }
@@ -117,7 +117,7 @@ $font-text: "Righteous-Regular";
     display: grid;
     width: 100%;
     max-width: 768px;
-    grid-template-rows: 15% 1fr;
+    grid-template-rows: 13% 1fr;
   }
   .navbar {
     justify-content: center;
@@ -127,6 +127,9 @@ $font-text: "Righteous-Regular";
     h3 {
       display: none;
     }
+  }
+  .landing-content-grid {
+    grid-template-columns: 50% 50%;
   }
 }
 
